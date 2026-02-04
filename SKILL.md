@@ -47,6 +47,26 @@ Automate LinkedIn interactions via OpenClaw browser control. LinkedIn has no pub
 2. Or click "Show all analytics" from profile page
 3. Shows: profile views, post impressions, search appearances
 
+### Detailed Content Analytics
+
+Navigate to: `https://www.linkedin.com/analytics/creator/content/?metricType=IMPRESSIONS&timeRange=past_7_days`
+
+Available metrics (change `metricType` param):
+- `IMPRESSIONS` — how many times posts were shown
+- `ENGAGEMENTS` — likes, comments, shares
+- `FOLLOWERS` — follower growth
+
+Available time ranges (change `timeRange` param):
+- `past_7_days`, `past_14_days`, `past_30_days`, `past_90_days`, `past_365_days`
+
+Page shows: cumulative graph, discovery stats (impressions + members reached), top performing posts with individual impression counts.
+
+### Audience Analytics
+
+Navigate to: `https://www.linkedin.com/analytics/creator/audience/`
+
+Shows demographics of who's viewing your content.
+
 ## Engagement (Like, Comment, Share)
 
 ### Liking a Post
